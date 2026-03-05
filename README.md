@@ -1,34 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+  <img src="./public/images/glimpse-logo.png" alt="Glimpse powered by Nexaworks" width="300" />
+</div>
+
+<h1 align="center">Glimpse</h1>
+
+<p align="center">
+  <strong>The end of spray and pray outreach.</strong><br/>
+  Premium Outbound Intelligence platform powered by Nexaworks.
+</p>
+
+## Overview
+
+Glimpse is a highly specialized, intent-driven outbound intelligence platform. Instead of generic templates, we generate hyper-personalized 60-second video audits that diagnose a prospect's exact problem using live, real-time data.
+
+By monitoring thousands of buying signals across the market, Glimpse enables Account Executives to strike first when intent spikes, securing top-tier meetings with decision-makers without the traditional research burden.
+
+## Core Features
+
+- **Live Signal Radar:** Real-time monitoring of 10,000+ companies for critical buying signals (funding rounds, tech migrations, executive hiring).
+- **Hyper-Personalized Micro-Audits:** Automated 60-second video overviews highlighting competitor gaps and data-driven insights tailored exactly to the prospect.
+- **Product Intelligence:** Deep integration with 40+ distinct data points per company daily, triggering automated workflows when ideal buyer criteria align.
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sahilghewari/glimpse.git
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tech Stack
+- Next.js (App Router)
+- React
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Lucide Icons
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+<p align="center">
+  <em>Powered by <a href="#">Nexaworks</a></em>
+</p>

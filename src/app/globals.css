@@ -1,1 +1,84 @@
 @import "tailwindcss";
+
+@theme {
+  --color-bg: #0B0F13;
+  --color-surface-1: #0F151A;
+  --color-surface-2: #0B1116;
+
+  --color-accent-1: #5B7FFF;
+  --color-accent-2: #7EA6FF;
+  --color-accent-glow: rgba(91, 127, 255, 0.4);
+
+  --color-teal: #3ED6C4;
+
+  --color-text-main: #E9EEF6;
+  --color-text-dim: #B6BDC6;
+  --color-text-muted: #9BA6B3;
+
+  --color-success: #33D17A;
+  --color-warning: #FFB86B;
+  --color-danger: #FF6B6B;
+}
+
+@layer base {
+  :root {
+    --background: var(--color-bg);
+    --foreground: var(--color-text-main);
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    @apply antialiased selection:bg-accent-1/30 selection:text-white;
+  }
+}
+
+/* ─── Signal Radar Animations ─── */
+
+.radar-sweep {
+  animation: radar-sweep 4s linear infinite;
+}
+
+@keyframes radar-sweep {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.blip-pulse {
+  animation: blip-pulse 2s ease-out infinite;
+}
+
+@keyframes blip-pulse {
+  0% {
+    transform: scale(0.5);
+    opacity: 0.6;
+  }
+
+  100% {
+    transform: scale(2.5);
+    opacity: 0;
+  }
+}
+
+.blip-glow {
+  animation: blip-glow 2.5s ease-in-out infinite;
+}
+
+@keyframes blip-glow {
+
+  0%,
+  100% {
+    opacity: 0.8;
+    filter: brightness(1);
+  }
+
+  50% {
+    opacity: 1;
+    filter: brightness(1.4);
+  }
+}
