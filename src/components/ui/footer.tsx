@@ -1,4 +1,5 @@
 import { Button } from "./button"
+import { GlimpseLogo } from "./glimpse-logo"
 
 export function Footer() {
     return (
@@ -26,7 +27,8 @@ export function Footer() {
                 <div className="flex flex-col md:flex-row items-start justify-between gap-10">
                     {/* Brand */}
                     <div className="space-y-4">
-                        <div className="flex items-center gap-2">
+                        <div className="flex items-center gap-3">
+                            <GlimpseLogo className="h-8 w-8" />
                             <div className="flex flex-col">
                                 <span className="text-xl font-bold tracking-tight text-white leading-none">glimpse.</span>
                                 <span className="text-[9px] tracking-[0.2em] font-medium text-text-muted mt-0.5 uppercase">Powered by Nexaworks</span>
