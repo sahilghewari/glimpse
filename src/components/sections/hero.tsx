@@ -67,7 +67,7 @@ export function Hero() {
                         transition={{ duration: 0.5, ease: "easeOut", delay: 0.1 }}
                         className="mx-auto max-w-4xl font-sans text-4xl sm:text-[64px] font-semibold tracking-tight text-white leading-[1.1]"
                     >
-                        Know who is buying before <br className="hidden sm:block" /> your competitors do.
+                        Automate Your Lead Generation <br className="hidden sm:block" /> Workflow.
                     </motion.h1>
 
                     <motion.p
@@ -76,7 +76,7 @@ export function Hero() {
                         transition={{ duration: 0.5, ease: "easeOut", delay: 0.2 }}
                         className="mx-auto mt-6 max-w-2xl text-lg text-text-dim leading-relaxed"
                     >
-                        Signal intelligence that identifies high-intent companies and books qualified meetings with decision-makers, automatically.
+                        We help lead generation and vision agencies save time and scale efficiently with simple, reliable automation and optional AI-driven personalized outreach.
                     </motion.p>
 
                     <motion.div
@@ -85,12 +85,12 @@ export function Hero() {
                         transition={{ duration: 0.5, ease: "easeOut", delay: 0.3 }}
                         className="mt-8 flex items-center justify-center gap-4"
                     >
-                        <Button size="lg" className="group h-12 px-7 text-base font-medium">
-                            Apply for pilot
+                        <Button size="lg" className="group h-12 px-7 text-base font-medium" onClick={() => window.open('https://calendly.com/nexawork/hive', '_blank')}>
+                            Book a Call
                             <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                         </Button>
                         <Button variant="outline" size="lg" className="h-12 px-7 text-base font-medium border-surface-2 bg-transparent hover:bg-surface-1">
-                            See how it works
+                            Learn More
                         </Button>
                     </motion.div>
                 </div>
@@ -111,17 +111,17 @@ export function Hero() {
                                     <Radio className="h-5 w-5 text-text-muted" />
                                 </div>
                                 <div>
-                                    <h3 className="text-base font-medium text-white">Live Signal Detection</h3>
-                                    <p className="text-xs text-text-muted">Real-time buying intent analysis</p>
+                                    <h3 className="text-base font-medium text-white">Live Pipeline Activity</h3>
+                                    <p className="text-xs text-text-muted">Real-time automation status</p>
                                 </div>
                             </div>
 
                             <div className="space-y-3">
-                                <div className="text-xs font-medium text-text-dim mb-2 border-b border-surface-2/50 pb-2">Latest Signals:</div>
+                                <div className="text-xs font-medium text-text-dim mb-2 border-b border-surface-2/50 pb-2">Recent Activities:</div>
                                 {[
-                                    { text: "Series B round closed ($18M)", time: "2 min ago", score: 94 },
-                                    { text: "VP Growth hired at Acme", time: "12 min ago", score: 88 },
-                                    { text: "Tech stack migration (Snowflake)", time: "1 hr ago", score: 82 },
+                                    { text: "100 leads scraped & enriched", time: "2 min ago", score: 94 },
+                                    { text: "AI personalized emails drafted", time: "12 min ago", score: 88 },
+                                    { text: "Campaign sequence scheduled", time: "1 hr ago", score: 82 },
                                 ].map((signal, idx) => (
                                     <motion.div
                                         key={idx}
@@ -152,9 +152,9 @@ export function Hero() {
                                 >
                                     <Zap className="h-4 w-4 text-accent-2 mb-3" />
                                     <div className="text-2xl font-semibold text-white mb-0.5">
-                                        <AnimatedNumber value={107} />
+                                        <AnimatedNumber value={45} />
                                     </div>
-                                    <div className="text-xs text-text-dim">Signals This Week</div>
+                                    <div className="text-xs text-text-dim">Hours Saved</div>
                                 </motion.div>
 
                                 <motion.div
@@ -165,9 +165,9 @@ export function Hero() {
                                 >
                                     <Target className="h-4 w-4 text-success mb-3" />
                                     <div className="text-2xl font-semibold text-white mb-0.5">
-                                        <AnimatedNumber value={23} />
+                                        <AnimatedNumber value={2450} />
                                     </div>
-                                    <div className="text-xs text-text-dim">Meetings Booked</div>
+                                    <div className="text-xs text-text-dim">Leads Processed</div>
                                 </motion.div>
 
                                 <motion.div
@@ -178,8 +178,8 @@ export function Hero() {
                                 >
                                     <div className="flex items-center justify-between">
                                         <div>
-                                            <div className="text-2xl font-semibold text-white mb-0.5">$1.2M</div>
-                                            <div className="text-xs text-accent-2">Pipeline Generated (30 days)</div>
+                                            <div className="text-2xl font-semibold text-white mb-0.5">12</div>
+                                            <div className="text-xs text-accent-2">Active Campaigns (30 days)</div>
                                         </div>
                                         <div className="h-12 w-28 relative">
                                             {/* Sparkline */}

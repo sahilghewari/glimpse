@@ -29,20 +29,17 @@ export function Navbar() {
                     <div className="flex items-center gap-3">
                         <GlimpseLogo className="h-8 w-8" />
                         <div className="flex flex-col">
-                            <span className="text-xl font-bold tracking-tight text-white leading-none">glimpse.</span>
-                            <span className="text-[9px] tracking-[0.2em] font-medium text-text-muted mt-0.5 uppercase">Powered by Nexaworks</span>
+                            <span className="text-xl font-bold tracking-tight text-white leading-none">Hive</span>
                         </div>
                     </div>
 
                     <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-text-secondary">
-                        <a href="#product" className="hover:text-white transition-colors">Product</a>
                         <a href="#how-it-works" className="hover:text-white transition-colors">How it Works</a>
                         <a href="#results" className="hover:text-white transition-colors">Results</a>
                     </nav>
 
                     <div className="flex items-center gap-4">
-                        <Button variant="ghost" className="hidden sm:inline-flex hidden md:block">Sign In</Button>
-                        <Button>Apply for pilot</Button>
+                        <Button onClick={() => window.open('https://calendly.com/nexawork/hive', '_blank')}>Book a Call</Button>
                     </div>
                 </div>
             </div>

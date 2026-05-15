@@ -141,10 +141,10 @@ export function Results() {
                 <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6 mb-16">
                     <div>
                         <h2 className="text-3xl font-medium tracking-tight text-white mb-2">
-                            Predictable pipeline, quantified.
+                            Predictable automation, quantified.
                         </h2>
                         <p className="text-text-dim">
-                            Replace blind outreach with targeted strikes. Immediate ROI through higher quality meetings.
+                            Scale your agency operations without adding headcount. Immediate ROI through massive time savings.
                         </p>
                     </div>
                 </div>
@@ -200,11 +200,11 @@ export function Results() {
                                 <div className="flex items-center gap-4 text-[11px] text-text-muted">
                                     <div className="flex items-center gap-1.5">
                                         <div className="h-1.5 w-1.5 rounded-full bg-accent-1" />
-                                        <span>Glimpse</span>
+                                        <span>Our Automation</span>
                                     </div>
                                     <div className="flex items-center gap-1.5">
                                         <div className="h-1.5 w-1.5 rounded-full bg-surface-2" />
-                                        <span>Traditional</span>
+                                        <span>Manual Workflows</span>
                                     </div>
                                 </div>
                             </div>
@@ -296,7 +296,7 @@ export function Results() {
 
                             <div className="relative z-10 h-full flex flex-col">
                                 <h3 className="text-base font-medium text-white mb-1">Outreach Efficiency</h3>
-                                <p className="text-xs text-text-muted mb-8">Glimpse vs Traditional SDR Approach</p>
+                                <p className="text-xs text-text-muted mb-8">Our Automation vs Manual Workflows</p>
 
                                 <div className="flex-1 space-y-6">
                                     {[
@@ -336,11 +336,11 @@ export function Results() {
                                 <div className="mt-6 pt-4 border-t border-surface-2/30 flex items-center gap-4 text-[10px] text-text-muted">
                                     <div className="flex items-center gap-1.5">
                                         <div className="h-2 w-4 rounded bg-accent-1" />
-                                        <span>Glimpse</span>
+                                        <span>Our Automation</span>
                                     </div>
                                     <div className="flex items-center gap-1.5">
                                         <div className="h-2 w-4 rounded bg-surface-2/50" />
-                                        <span>Traditional SDRs</span>
+                                        <span>Manual Workflows</span>
                                     </div>
                                 </div>
                             </div>

@@ -9,6 +9,8 @@ export const metadata: Metadata = {
   description: "Identify companies actively buying software and book qualified meetings.",
 };
 
+import { WhatsAppButton } from "@/components/ui/whatsapp-button";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -18,6 +20,7 @@ export default function RootLayout({
     <html lang="en" className="dark">
       <body className={`${inter.variable} font-sans antialiased bg-bg text-text-primary`}>
         {children}
+        <WhatsAppButton />
       </body>
     </html>
   );

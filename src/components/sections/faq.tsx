@@ -6,20 +6,20 @@ import { ChevronDown } from "lucide-react"
 
 const faqs = [
     {
-        question: "Do you use generic outreach templates?",
-        answer: "No. We generate hyper-personalized micro-audits specific to the prospect's company and exact gap. Each message contains live data visualizations proving why they need to act now."
+        question: "Do you use AI for outreach?",
+        answer: "Yes, if you prefer. We can leverage AI to create highly personalized outreach messages, or we can use your existing proven templates. It's completely up to your agency's style."
     },
     {
-        question: "What makes your intent signals different?",
-        answer: "Static databases provide historical data. We ingest live streams across hiring boards, press releases, social activity, and tech stack telemetry to find the exact day a budget opens."
+        question: "What exactly do you automate?",
+        answer: "We automate the repetitive manual tasks in your lead generation pipeline: scraping, formatting, CRM data entry, and email sequencing. We take the robotic work out of your day."
     },
     {
-        question: "How does the '3 meetings' guarantee work?",
-        answer: "The pilot runs for 30 days. If we don't land at least 3 qualified meetings with decision-makers at target accounts, your fee is fully refunded. No questions asked."
+        question: "Is this for any business?",
+        answer: "No. We exclusively work with lead generation and vision agencies. We understand your specific workflows and build automations tailored specifically to your operational needs."
     },
     {
-        question: "Will this replace my SDR team?",
-        answer: "No. Glimpse is designed to arm your Account Executives with high-intent pipeline or superpowers your best SDRs by removing the research and signal detection burden entirely."
+        question: "Will this replace my team?",
+        answer: "No. Our automation acts as a force multiplier for your team, allowing them to focus on high-value tasks like strategy, relationship building, and closing deals, rather than manual data entry."
     }
 ]
 
@@ -61,7 +61,7 @@ export function FAQ() {
     const [openIndex, setOpenIndex] = React.useState<number | null>(0)
 
     return (
-        <section className="py-24 lg:py-32 bg-bg">
+        <section id="faq" className="py-24 lg:py-32 bg-bg">
             <div className="mx-auto max-w-4xl px-6 lg:px-8">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl font-medium tracking-tight text-white mb-4">
