@@ -13,7 +13,7 @@ const SIGNALS = [
     { id: 2, company: "NovaTech", type: "VP Hired", detail: "VP of Growth", angle: 110, radius: 0.55, color: "#3ED6C4", icon: UserPlus },
     { id: 3, company: "Helix AI", type: "Tech Migration", detail: "→ Snowflake", angle: 195, radius: 0.85, color: "#5B7FFF", icon: Code2 },
     { id: 4, company: "Stratos", type: "Expansion", detail: "New EU Office", angle: 260, radius: 0.4, color: "#7EA6FF", icon: Building2 },
-    { id: 5, company: "Vortex SaaS", type: "Revenue Surge", detail: "+140% ARR", angle: 320, radius: 0.65, color: "#33D17A", icon: TrendingUp },
+    { id: 5, company: "Vortex SaaS", type: "Revenue Surge", detail: "+48% ARR", angle: 320, radius: 0.65, color: "#33D17A", icon: TrendingUp },
     { id: 6, company: "Quantum B2B", type: "Funding Round", detail: "$28M Series B", angle: 70, radius: 0.38, color: "#33D17A", icon: DollarSign },
     { id: 7, company: "Apex Labs", type: "VP Hired", detail: "CRO Appointment", angle: 155, radius: 0.78, color: "#3ED6C4", icon: UserPlus },
     { id: 8, company: "Pulsar Inc", type: "Tech Migration", detail: "→ Databricks", angle: 290, radius: 0.52, color: "#5B7FFF", icon: Code2 },
@@ -36,7 +36,7 @@ const FEED_ENTRIES = [
     { company: "NovaTech", signal: "VP of Growth hired", time: "2 min ago", color: "#3ED6C4" },
     { company: "Helix AI", signal: "Migrating to Snowflake", time: "5 min ago", color: "#5B7FFF" },
     { company: "Stratos", signal: "EU expansion announced", time: "8 min ago", color: "#7EA6FF" },
-    { company: "Vortex SaaS", signal: "ARR surged +140%", time: "12 min ago", color: "#33D17A" },
+    { company: "Vortex SaaS", signal: "ARR surged +48%", time: "12 min ago", color: "#33D17A" },
     { company: "Quantum B2B", signal: "Series B closed ($28M)", time: "15 min ago", color: "#33D17A" },
     { company: "Apex Labs", signal: "CRO appointed", time: "18 min ago", color: "#3ED6C4" },
     { company: "Pulsar Inc", signal: "Migrating to Databricks", time: "22 min ago", color: "#5B7FFF" },
@@ -302,7 +302,7 @@ export function SignalRadar() {
                                 <div className="text-[9px] text-text-muted">Response</div>
                             </div>
                             <div className="text-center">
-                                <div className="text-lg font-semibold text-white">67%</div>
+                                <div className="text-lg font-semibold text-white">12.8%</div>
                                 <div className="text-[9px] text-text-muted">Book Rate</div>
                             </div>
                         </div>
