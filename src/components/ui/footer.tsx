@@ -1,3 +1,5 @@
+"use client"
+
 import { Button } from "./button"
 import { GlimpseLogo } from "./glimpse-logo"
 
@@ -11,12 +13,12 @@ export function Footer() {
 
                 <div className="relative z-10 mx-auto max-w-4xl px-6 lg:px-8 text-center">
                     <h2 className="text-4xl md:text-5xl font-medium tracking-tight text-white mb-6">
-                        Stop guessing who might buy. <br className="hidden sm:block" />
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent-1 to-teal">Start targeting who already is.</span>
+                        Stop wasting time on manual tasks. <br className="hidden sm:block" />
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent-1 to-teal">Start automating your pipeline.</span>
                     </h2>
                     <div className="mt-10 flex justify-center">
-                        <Button size="lg" className="w-full sm:w-auto h-14 px-8 text-base shadow-[0_0_30px_var(--color-accent-glow)] hover:shadow-[0_0_40px_var(--color-accent-glow)]">
-                            Apply for pilot today
+                        <Button size="lg" className="w-full sm:w-auto h-14 px-8 text-base shadow-[0_0_30px_var(--color-accent-glow)] hover:shadow-[0_0_40px_var(--color-accent-glow)]" onClick={() => window.open('https://calendly.com/nexawork/hive', '_blank')}>
+                            Book your call today
                         </Button>
                     </div>
                 </div>
@@ -30,12 +32,12 @@ export function Footer() {
                         <div className="flex items-center gap-3">
                             <GlimpseLogo className="h-8 w-8" />
                             <div className="flex flex-col">
-                                <span className="text-xl font-bold tracking-tight text-white leading-none">glimpse.</span>
+                                <span className="text-xl font-bold tracking-tight text-white leading-none">hive.</span>
                                 <span className="text-[9px] tracking-[0.2em] font-medium text-text-muted mt-0.5 uppercase">Powered by Nexaworks</span>
                             </div>
                         </div>
                         <p className="text-sm text-text-muted leading-relaxed max-w-xs">
-                            Signal intelligence that books qualified meetings with decision-makers, automatically.
+                            Simple, reliable lead generation automation for your agency.
                         </p>
                     </div>
 
@@ -47,7 +49,7 @@ export function Footer() {
                                 {[
                                     { label: "How it Works", href: "#how-it-works" },
                                     { label: "Results", href: "#results" },
-                                    { label: "Pricing", href: "#pricing" },
+                                    { label: "FAQ", href: "#faq" },
                                 ].map((item) => (
                                     <li key={item.label}>
                                         <a href={item.href} className="text-sm text-text-muted hover:text-white transition-colors">
@@ -75,7 +77,7 @@ export function Footer() {
                 {/* Copyright */}
                 <div className="mt-12 pt-8 border-t border-surface-2/50">
                     <p className="text-xs text-text-muted">
-                        © {new Date().getFullYear()} Glimpse by Nexaworks. All rights reserved.
+                        © {new Date().getFullYear()} Hive by Nexaworks. All rights reserved.
                     </p>
                 </div>
             </div>

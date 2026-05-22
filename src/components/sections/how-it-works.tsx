@@ -173,20 +173,20 @@ export function HowItWorks() {
     const steps = [
         {
             icon: Radar,
-            title: "1. Detect Signals",
-            description: "We monitor funding, hiring, tech stack changes, and product launches in real-time.",
+            title: "1. Automate Workflows",
+            description: "We configure your CRM, scrapers, and outreach tools to run seamlessly on autopilot.",
             visual: <SignalRadarMini />,
         },
         {
             icon: BrainCircuit,
-            title: "2. Analyze Intent",
-            description: "Our intelligence engine scores fit and timing, surfacing the top 1% of accounts.",
+            title: "2. AI Personalization",
+            description: "Leverage AI to craft hyper-personalized emails that resonate with your target prospects.",
             visual: <IntentScoreGauge />,
         },
         {
             icon: CalendarCheck,
-            title: "3. Book Meetings",
-            description: "Personalized micro-audits are sent to decision-makers, booking directly on your calendar.",
+            title: "3. Scale & Save Time",
+            description: "Your team spends zero time on manual tasks and 100% of their time closing deals.",
             visual: <CalendarBookMini />,
         }
     ]
@@ -199,10 +199,10 @@ export function HowItWorks() {
             <div className="mx-auto max-w-7xl px-6 lg:px-8 relative z-10">
                 <div className="max-w-3xl mb-16">
                     <h2 className="text-3xl font-medium tracking-tight text-white md:text-5xl mb-4">
-                        A precise engine for pipeline generation
+                        A simple, reliable engine for your agency
                     </h2>
                     <p className="text-lg text-text-dim">
-                        Forget spray and pray. We replace volume with accuracy.
+                        We don't do anything revolutionary, we just make you incredibly efficient.
                     </p>
                 </div>
 
