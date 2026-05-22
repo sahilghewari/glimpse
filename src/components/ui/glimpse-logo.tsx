@@ -6,7 +6,7 @@ export function GlimpseLogo({ className }: { className?: string }) {
         <div className={`relative ${className}`}>
             <Image 
                 src="https://i.postimg.cc/cJgxD549/hivemetal.png"
-                alt="Hive Logo" 
+                alt="Hive Logo"
                 fill
                 className="object-contain"
                 unoptimized
