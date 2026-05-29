@@ -154,8 +154,8 @@ export function Results() {
                     <MetricCard
                         icon={Target}
                         label="Meetings Booked"
-                        targetNum={32}
-                        value="32"
+                        targetNum={15}
+                        value="15"
                         change="+14% vs last month"
                         delay={0}
                     />
@@ -172,10 +172,10 @@ export function Results() {
                         icon={DollarSign}
                         label="Pipeline Created"
                         targetNum={12}
-                        value="$1.2M"
+                        value="$40k"
                         prefix="$"
-                        suffix="00k"
-                        change="+$400k this quarter"
+                        suffix="k"
+                        change="+$10k this quarter"
                         delay={0.2}
                     />
                 </div>
