@@ -172,10 +172,10 @@ export function Results() {
                         icon={DollarSign}
                         label="Pipeline Created"
                         targetNum={450}
-                        value="$450k"
+                        value="$40k"
                         prefix="$"
                         suffix="k"
-                        change="+$150k this quarter"
+                        change="+$10k this quarter"
                         delay={0.2}
                     />
                 </div>
